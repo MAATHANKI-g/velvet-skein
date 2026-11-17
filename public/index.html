@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Velvet Skein | Stitched by hand</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<main>
+  <!-- 1. HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="badge-eyebrow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#984440" stroke-width="2" aria-hidden="true"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8z"/></svg>
+          Handmade in small batches
+        </span>
+
+        <h1 class="headline">Stitched by hand.<br><em>Made to stick around.</em></h1>
+
+        <p class="subhead">From plush dolls and forever blooms to keychains that upgrade your everyday tote. Every piece at The Velvet Skein is crocheted one loop at a time. No mass-produced plastic, just soft yarn and a whole lot of character.</p>
+
+        <div class="cta-group">
+          <a class="btn btn-primary" href="#bestsellers">Shop Bestsellers</a>
+          <a class="btn btn-light" href="#custom-order">Request a Custom Order</a>
+        </div>
+
+        <ul class="microcopy">
+          <li><span class="dot" style="background:#55624e"></span>100% handmade</li>
+          <li><span class="dot" style="background:#d97771"></span>Gift-ready packaging</li>
+          <li><span class="dot" style="background:#a88c93"></span>Custom slots open</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card">
+          <img src="assets/hero.jpg" alt="Handmade crochet character in a cream and brown hat">
+          <div class="hero-gradient" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. PRODUCTS / CATEGORY SECTION -->
+  <section class="categories">
+    <div class="container">
+      <header class="section-header">
+        <span class="pill">Curated Catalog</span>
+        <h2>Fresh off the hook</h2>
+        <p>Whether you're hunting for a gift that won't wilt or a tiny companion for your keys, everything here is made in small batches.</p>
+      </header>
+
+      <div class="category-grid">
+        <a class="cat-card" href="#bestsellers" style="background:#fee9e5">
+          <div class="cat-img"><img src="assets/dolls.jpg" alt="Crochet dog plush" loading="lazy"><span class="overlay-tag">Plush &amp; Cozy</span></div>
+          <h3>Crochet Dolls &amp; Plushies</h3>
+          <p>Soft, squishy, and full of personality. From quirky desk buddies to custom character dolls, these are made to be hugged, displayed, and kept for years.</p>
+          <span class="cat-link" style="color:#984440">Shop Dolls &rarr;</span>
+        </a>
+
+        <a class="cat-card" href="#bestsellers" style="background:#d6e4ca">
+          <div class="cat-img"><img src="assets/florals.jpg" alt="Crochet red roses bouquet" loading="lazy"><span class="overlay-tag">No Wilt Ever</span></div>
+          <h3>Forever Flowers &amp; Pots</h3>
+          <p>Zero watering. Zero wilting. Single stems, cozy desk sunflowers, and mini cactus pots that stay bright on your windowsill all year round.</p>
+          <span class="cat-link" style="color:#55624e">Shop Florals &rarr;</span>
+        </a>
+
+        <a class="cat-card" href="#bestsellers" style="background:#f8e4df">
+          <div class="cat-img"><img src="assets/keychains.jpg" alt="Crochet sunflower keychain" loading="lazy"><span class="overlay-tag">Daily Carry</span></div>
+          <h3>Keychains &amp; Bag Charms</h3>
+          <p>Give your keys (or tote) a tiny upgrade. Palm-sized penguins, bears, and tulips built to survive your daily commute.</p>
+          <span class="cat-link" style="color:#7a2d2b">Shop Keychains &rarr;</span>
+        </a>
+
+        <a class="cat-card" href="#custom-order" style="background:#fbdae2">
+          <div class="cat-img"><img src="assets/custom.jpg" alt="Custom crochet character" loading="lazy"><span class="overlay-tag">Bespoke</span></div>
+          <h3>Custom Orders</h3>
+          <p>Got a specific idea in mind? Tell us the colors, character, or bouquet you're picturing, and we'll stitch it just for you.</p>
+          <span class="cat-link" style="color:#3a272d">Start a Custom Order &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2b. FEATURED PRODUCTS (live from API) -->
+  <section class="featured" id="bestsellers">
+    <div class="container">
+      <div class="featured-head">
+        <div>
+          <p class="eyebrow">HANDMADE IN PORTLAND</p>
+          <h2>Small Batch Bestsellers</h2>
+        </div>
+        <p class="featured-note">Loved by our craft community. Packed in keepsake drawstring pouches.</p>
+      </div>
+
+      <div class="product-grid" id="featured-grid">
+        <p class="muted">Loading products&hellip;</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. NEWSLETTER + FOOTER -->
+  <section class="footer-wrap">
+    <div class="container">
+      <div class="newsletter">
+        <div class="newsletter-copy">
+          <p class="eyebrow eyebrow-inline">
+            <svg width="13" height="12" viewBox="0 0 24 24" fill="none" stroke="#984440" stroke-width="2" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M4 6l8 6 8-6"/></svg>
+            Restock Bulletins
+          </p>
+          <h2>Get first dibs on new drops.</h2>
+          <p>Small-batch pieces sell out fast. Drop your email for restock alerts, custom slot openings, and the occasional cute update. No spam, promise.</p>
+        </div>
+
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" name="email" placeholder="Your email address" required aria-label="Email address">
+          <button class="btn btn-rose" type="submit">Keep me posted</button>
+        </form>
+      </div>
+
+      <div class="footer-cols">
+        <div class="brand-col">
+          <h3 class="brand">The Velvet Skein</h3>
+          <p>Slow-made crochet dolls, forever blooms, and everyday charms. Stitched by hand, packed with care, and shipped straight to your door.</p>
+          <p class="fine"><span class="dot" style="background:#55624e"></span>Recyclable cardboard &amp; botanical tissue paper packing</p>
+        </div>
+
+        <nav class="footer-col" aria-label="Shop">
+          <h4>Shop</h4>
+          <a href="#bestsellers">All Products</a>
+          <a href="#bestsellers">Crochet Dolls</a>
+          <a href="#bestsellers">Forever Flowers</a>
+          <a href="#bestsellers">Keychains &amp; Charms</a>
+          <a href="#custom-order" id="custom-order">Custom Orders</a>
+        </nav>
+
+        <nav class="footer-col" aria-label="Help">
+          <h4>Help</h4>
+          <a href="#">Shipping &amp; Turnaround</a>
+          <a href="#">Yarn Care Guide</a>
+          <a href="#">Returns &amp; Exchanges</a>
+          <a href="mailto:hello@velvetskein.example">Contact Us</a>
+        </nav>
+
+        <nav class="footer-col" aria-label="Follow along">
+          <h4>Follow Along</h4>
+          <a href="#">Instagram</a>
+          <a href="#">Pinterest</a>
+          <a href="#">YouTube</a>
+        </nav>
+      </div>
+
+      <div class="bottom-bar">
+        <p>&copy; 2026 The Velvet Skein. Every stitch made by hand.</p>
+        <div class="bottom-tags">
+          <span><span class="dot" style="background:#55624e"></span>Small batch studio</span>
+          <span><span class="dot" style="background:#984440"></span>Hand-spun with care</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Floating bag button (not in the Figma frame; needed for buying) -->
+<button class="bag-fab" id="bag-open" aria-label="Open bag">
+  Bag <span class="bag-count" id="bag-count">0</span>
+</button>
+
+<!-- BAG -->
+<dialog id="bag" class="sheet">
+  <div class="sheet-head">
+    <h3>Your bag</h3>
+    <button class="icon-btn" data-close="bag" aria-label="Close">&times;</button>
+  </div>
+  <ul class="bag-lines" id="bag-lines"></ul>
+  <div class="bag-footer">
+    <div class="bag-total"><span>Subtotal</span><strong id="bag-total">₹0</strong></div>
+    <p class="fine">Shipping and taxes calculated at checkout.</p>
+    <button class="btn btn-rose btn-block" id="checkout-btn" disabled>Checkout</button>
+  </div>
+</dialog>
+
+<!-- CHECKOUT -->
+<dialog id="checkout" class="sheet">
+  <div class="sheet-head">
+    <h3>Shipping details</h3>
+    <button class="icon-btn" data-close="checkout" aria-label="Close">&times;</button>
+  </div>
+  <form id="checkout-form" class="stack">
+    <label>Full name<input name="name" required autocomplete="name"></label>
+    <label>Email<input name="email" type="email" required autocomplete="email"></label>
+    <label>Phone<input name="phone" type="tel" autocomplete="tel"></label>
+    <label>Address<textarea name="address" rows="3" required autocomplete="street-address"></textarea></label>
+    <p class="form-msg" id="checkout-msg" role="status"></p>
+    <button class="btn btn-rose btn-block" type="submit">Place order</button>
+  </form>
+</dialog>
+
+<!-- CUSTOM ORDER anchor target -->
+<div id="custom-order-anchor"></div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
