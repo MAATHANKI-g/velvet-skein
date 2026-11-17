@@ -1,1 +1,8 @@
-{ "name": "velvet-skein", "version": "3.0.0", "private": true, "dependencies": { "pg": "^8.13.1" } }
+{
+  "name": "velvet-skein",
+  "version": "3.0.0",
+  "private": true,
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
